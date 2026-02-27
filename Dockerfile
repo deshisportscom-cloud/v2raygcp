@@ -1,7 +1,7 @@
 FROM teddysun/v2ray:latest
 
-# Expose the correct container port (8080)
-EXPOSE 8080
+# Expose the correct container port (443)
+EXPOSE 443
 
 # Copy the VLESS config into the container
 COPY config.json /etc/v2ray/config.json
@@ -10,5 +10,5 @@ COPY config.json /etc/v2ray/config.json
 CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
 
 
-# join telegram https://t.me/ragnarservers  for new updates 
-# my telegram username is @Not_Ragnar
+# join telegram https://t.me/a2zltd  for new updates 
+# my telegram username is @a2zltd
